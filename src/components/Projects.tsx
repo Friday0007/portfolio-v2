@@ -28,8 +28,7 @@ const projects: Project[] = [
       "Luxury jewellery e-commerce platform featuring product collections, category browsing, promotional banners, and a seamless shopping experience with cart, search, and responsive UI optimized for premium branding.",
     tags: ["Shopify", "APIs", "CSS", "HTML"],
     image: "https://i.ibb.co/Fkt2Vdbt/South-Temple-Jewellery.png",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://southtemplejewellery.com/",
     status: "live",
   },
   {
@@ -37,11 +36,11 @@ const projects: Project[] = [
     title: "Vagnams Furniture",
     category: "Web App",
     description:
-      "Analytics dashboard with real-time data visualization, team collaboration, and automated reporting for startups.",
-    tags: ["React", "D3.js", "Node.js", "PostgreSQL"],
+      "Luxury furniture brand website showcasing premium interior collections with an elegant hero section, smooth navigation, and visually rich layouts designed to highlight craftsmanship, lifestyle aesthetics, and custom furniture offerings.",
+    tags: ["Tailwind", "Cloudinary", "TypeScript", "PostgreSQL"],
     image: "https://i.ibb.co/Nn2r2sK6/Vagnams-Furniture.png",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://vagnams-development-private.vercel.app/",
+    // githubUrl: "#",
     status: "in-development",
   },
   {
@@ -52,7 +51,7 @@ const projects: Project[] = [
       "Modern photography portfolio website designed to showcase image collections through a clean grid layout, category-based galleries, and immersive visuals focused on highlighting creative work.",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
     image: "https://i.ibb.co/TqhLncLr/Photosen.png",
-    liveUrl: "#",
+    liveUrl: "https://photosen-six.vercel.app/",
     status: "in-development",
   }
 ];
@@ -162,7 +161,7 @@ export default function Projects() {
                         ? "bg-emerald-600"
                         : "bg-amber-500"
                     }`}>
-                      {project.status === "live" ? "● Live" : "◐ In Development"}
+                      {project.status === "live" ? "Live" : "◐ In Development"}
                     </Badge>
                   </div>
 

@@ -7,14 +7,14 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Rohit Sharma",
+    name: "Madur Shah",
     role: "Founder, Flavour Basket",
     text: "We needed a Shopify store that could handle 500+ products and Vaibhav nailed it. The site loads fast, looks clean, and our sales went up 40% in the first month after launch.",
     avatar: "RS",
   },
   {
     name: "Priya Nair",
-    role: "Owner, Inked Studio",
+    role: "Owner, Online Kitchen",
     text: "Vaibhav built my portfolio site exactly how I wanted it — minimal, image-focused, and super smooth on mobile. He understood the brief quickly and delivered before the deadline.",
     avatar: "PN",
   },

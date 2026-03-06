@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,6 +16,11 @@ export const metadata: Metadata = {
     "designer",
   ],
   authors: [{ name: "Vaibhav" }],
+  icons: {
+    icon: "/Favicon.png",
+    shortcut: "/Favicon.png",
+    apple: "/Favicon.png",
+  },
   openGraph: {
     title: "Vaibhav.Labs - Full Stack Developer & Designer",
     description:
@@ -42,6 +48,7 @@ export default function RootLayout({
       </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
