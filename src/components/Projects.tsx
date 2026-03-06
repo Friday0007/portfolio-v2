@@ -84,7 +84,7 @@ export default function Projects() {
           </div>
           <Reveal delay={0.15}>
             <p className="max-w-sm text-sm text-muted-foreground">
-              Projects I&apos;m building at the moment — from concept to
+              Projects I&apos;m building at the moment - from concept to
               production-ready products.
             </p>
           </Reveal>

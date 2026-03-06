@@ -15,7 +15,7 @@ const testimonials = [
   {
     name: "Priya Nair",
     role: "Owner, Online Kitchen",
-    text: "Vaibhav built my portfolio site exactly how I wanted it — minimal, image-focused, and super smooth on mobile. He understood the brief quickly and delivered before the deadline.",
+    text: "Vaibhav built my portfolio site exactly how I wanted it - minimal, image-focused, and super smooth on mobile. He understood the brief quickly and delivered before the deadline.",
     avatar: "PN",
   },
   {

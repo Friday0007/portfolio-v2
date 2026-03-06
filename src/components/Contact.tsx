@@ -150,7 +150,7 @@ export default function Contact() {
                   ) : status === "sent" ? (
                     "Message Sent! ✓"
                   ) : status === "error" ? (
-                    "Failed — try again"
+                    "Failed - try again"
                   ) : (
                     <>
                       <Send size={16} />

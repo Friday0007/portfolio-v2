@@ -28,7 +28,7 @@ const particles = [
 export default function FloatingObjects() {
   return (
     <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
-      {/* Large floating orbs — pure CSS animations for buttery smoothness */}
+      {/* Large floating orbs - pure CSS animations for buttery smoothness */}
       {orbs.map((orb, i) => (
         <div
           key={`orb-${i}`}
@@ -37,7 +37,7 @@ export default function FloatingObjects() {
         />
       ))}
 
-      {/* Tiny floating particles — also pure CSS */}
+      {/* Tiny floating particles - also pure CSS */}
       {particles.map((p, i) => (
         <div
           key={`particle-${i}`}
